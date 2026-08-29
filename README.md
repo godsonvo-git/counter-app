@@ -3,6 +3,7 @@
 A clean, modern, and responsive **Counter Application** built using plain HTML[cite: 2], custom CSS, and vanilla JavaScript. This project was developed as part of my self-taught Full-Stack Web Development journey to master fundamental JavaScript DOM manipulation and event handling.
 
 ---
+### Click the Link to view: https://godsonvo-git.github.io/counter-app/
 
 ## Features
 
@@ -10,6 +11,8 @@ A clean, modern, and responsive **Counter Application** built using plain HTML[c
 * **Responsive Card UI:** Styled with Google Fonts (`Share Tech` and `DM Serif Text`) for a modern, sleek aesthetic[cite: 1].
 * **Interactive Button Effects:** Built-in CSS `:hover` and `:active` state animations for smooth user feedback[cite: 1].
 * **Pure Vanilla Stack:** Built completely without external frameworks or dependencies.
+
+<img width="1917" height="902" alt="Screenshot 2026-08-29 213934" src="https://github.com/user-attachments/assets/e51d89e0-ce84-48d6-8b77-5c459b6a875e" />
 
 ---
 
