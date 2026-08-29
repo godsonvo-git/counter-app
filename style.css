@@ -1,0 +1,76 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #6661fb;
+}
+.card{
+    min-width: 500px;
+    min-height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 6px 2px 16px -5px #000000;
+}
+.card-part-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-part-1 h1{
+    font-family: "Share Tech", sans-serif;
+    margin: 40px 0px 10px 0px;
+}
+.card-part-1 label{
+    margin: 0;
+    font-size: 5em;
+    font-family: 'DM Serif Text';
+    font-weight: bold;
+}
+.card-part-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
+.card-part-2 button{
+    padding: 13px 35px;
+    margin: 30px 0px 0px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Share Tech", sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#decreaseBtn{
+    background-color: #ff7769;
+}
+#resetBtn{
+    background-color: #f6c83e;
+}
+#increaseBtn{
+    background-color: #21b36f;
+}
+#decreaseBtn:hover,
+#resetBtn:hover,
+#increaseBtn:hover{
+    cursor: pointer;
+    box-shadow: 6px 7px 12px -6px #7a7a7a;
+    background-color: black;
+}
+#decreaseBtn:active,
+#resetBtn:active,
+#increaseBtn:active{
+    transform: translateX(4px) scale(0.97);
+    transition: 0.1s;
+}
